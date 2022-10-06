@@ -1,0 +1,18 @@
+TIPOGRAFIA
+h1 Lato 60px minusculas black
+h2 Lato 36px minusculas black
+h3 source sans pro 16px minusculas black
+parrafos helvetica 14px minusculas black
+
+IMAGENES
+formato: jpg
+imagen de tienda cabecera w 911 h 313
+imagen carrusel de productos izq w 273 h 303
+imagen carrusle de productos w 271 h 110
+imagen productos w 278 h 167
+imagen productos compra w 110 h 84
+imagenes blog w 436 h 194
+
+ICONOS
+traduccion w 24 h 24 esquina derecha negro
+
