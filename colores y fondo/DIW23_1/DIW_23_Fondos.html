@@ -6,9 +6,31 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ejercicio 7 - Fondos CSS</title>
         <style type="text/css" media="screen">
-        .examplemultiplebackgroundsa {
-            width: 500px;
-            height: 250px;
+        
+        body {
+            width: auto;
+        }
+        
+        .old_paper {
+          background-image: url("old_paper.jpg");
+        }
+        
+        /*.examplemultiplebackgroundsa {
+            width: auto;
+            height: auto;
+            right: 0px;
+        }*/
+
+        .decoration {
+            background-image: url("decoration.png");
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+
+        .ribbon {
+            background-image: url("ribbon.png");
+            background-repeat: no-repeat;
+            background-position: bottom right;
         }
         </style>
     </head>
@@ -17,13 +39,13 @@
             <p>Ejercicio de fondos múltiples</p>
         </div>
         <div>
-            <img src="decoration-png">
+            <img src="decoration.png" class="decoration">
         </div>
         <div>
-            <img src="old_paper.jpg">
+            <img src="old_paper.jpg" class="old_paper">
         </div>
         <div>
-            <img src="riboon.png">
+            <img src="ribbon.png" class="ribbon">
         </div>
     </body>
 </html>
