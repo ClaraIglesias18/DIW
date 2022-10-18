@@ -10,6 +10,8 @@
       background-color: #D3D3D3;
     }
 
+    .icon-home
+
     h1 {
       font-weight: bold;
     }
@@ -53,6 +55,7 @@
     }
 
     .lista3 {
+      clear: both;
       list-style-type: none;
       width: 100px;
       border: 1px solid black;
@@ -70,19 +73,19 @@
     }
 
     .lista4 {
-      list-style-type: none;
-      display: flex;
-      justify-content: flex-end;
-      gap: 2px
+      margin-left: 50%;
     }
 
     .lista4 li {
+      list-style-type: none;
+      float: left;
       font-weight: bold;
       font-size: 10px;
       text-align: center;
-      flex-basis: 95px;
       padding: 3px;
+      margin: 4px;
       background-color: #FFFFFF;
+      width: 100px;
       color: #3366cc;
       padding-top: 6px;
       padding-bottom: 6px;
@@ -92,6 +95,26 @@
       background-color: #3366cc;
       color: #FFFFFF;
       
+    }
+
+    .lista5 li {
+      float: left;
+      list-style-type: none;
+      margin: 20px;
+    }
+
+    .lista6 li {
+      list-style-type: none;
+      float: right;
+      margin: 20px;
+      border: 2px solid black;
+      border-radius: 3px;
+      background-color: white;
+      padding: 10px;
+    }
+
+    .lista li i {
+      justify-items: center;
     }
 
 
@@ -141,18 +164,23 @@
   <h2>Lista 5</h2>
   <ul class="lista5">
     <li><i class="icon-inicio"></i>Inicio</li>
-    <li>Añadir</li>
-    <li>Listar</li>
-    <li>Borrar</li>
-    <li>Buscar</li>
-    <li>Modificar</li>
-    <li>Salir</li>
+    <li><i class="icon-anadir"></i>Añadir</li>
+    <li><i class="icon-listar"></i>Listar</li>
+    <li><i clas="icon-borrar"></i>Borrar</li>
+    <li><i class="icon-buscar"></i>Buscar</li>
+    <li><i clas="icon-modificar"></i>Modificar</li>
+    <li><i class="icon-salir"></i>Salir</li>
   </ul>
 
   <h2>Lista 6</h2>
   <ul class="lista6">
     <li title="Inicio"><i class="icon-inicio"></i></li>
-    
+    <li title="Añadir"><i class="icon-añadir"></i></li>
+    <li title="Listar"><i class="icon-listar"></i></li>
+    <li title="Borrar"><i class="icon-borrar"></i></li>
+    <li title="Buscar"><i class="icon-buscar"></i></li>
+    <li title="Modificar"><i class="icon-modificar"></i></li>
+    <li title="Salir"><i class="icon-salir"></i></li>
   </ul>
 
 
