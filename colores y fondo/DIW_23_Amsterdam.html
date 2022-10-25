@@ -5,6 +5,10 @@
   <meta charset="utf-8" />
   <title><span class="rojo">Amsterdam</span></title>
   <style>
+    @font-face {
+      font-family: 'woff';
+      src: url(dancing-script.woff2);
+    }
     body {
       background-color: #b52000;
       color: white;
@@ -65,12 +69,14 @@
     .esquina {
       display: block;
       position: absolute;
+      width: 250px;
       top: 0px; 
       right: 0px;
       margin: 0;
       background-color: white;
       border: 1px solid white;
       color: black;
+      font-family: 'woff', sans-serif;
     }
     .pie {
       display: block;
@@ -80,6 +86,11 @@
       background-color: white;
       color: black;
       margin-bottom: 0;
+      
+    }
+
+    .negrita {
+      font-weight: bold;
     }
   </style>
 </head>
@@ -87,7 +98,7 @@
   <div><h1>Amsterdam</h1></div>
   <div class="esquina">
     <p>Es maravilloso que nadie tenga que esperar nada empezar a mejorar el mundo<br>
-      Ana Frank (Diario de una adolescente)</p>
+      <span class="negrita">Ana Frank (Diario de una adolescente)</span></p>
     
   </div>
   <div class="cabecera">

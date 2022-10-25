@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cajas Flexibles</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+            #contenedor-flexible1 {
+                display: flex;
+                flex-direction: row;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible1 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible2 {
+                display: flex;
+                flex-direction: row-reverse;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible2 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible3 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible4 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible4 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible5 {
+                display: flex;
+                flex-direction: column;
+                justify-items: left;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible5 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                width: 30px;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible6 {
+                display: flex;
+                flex-direction: column-reverse;
+                justify-items: left;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible6 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                width: 30px;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible7 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible7 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible8 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap-reverse;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible8 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible9 {
+                display: flex;
+                flex-direction: row;
+                align-items: stretch;
+                height: 180px;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible9 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible10 {
+                display: flex;
+                flex-direction: row;
+                height: 180px;
+                align-items: flex-end;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible10 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible11 {
+                display: flex;
+                flex-direction: row;
+                height: 180px;
+                align-items: center;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible11 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                border-radius: 10px;
+                font-size: 40px;
+            }
+
+            #contenedor-flexible12 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 3px;
+                background-color: #474749;
+            }
+
+            #contenedor-flexible12 .item-flexible {
+                background-color: white;
+                color: #ceb342;
+                width: 50px;
+                text-align: center;
+                padding: 20px 40px 20px 40px;
+                margin: 2px;
+                margin-bottom: 80px;
+                border-radius: 10px;
+                font-size: 40px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor-flexible1">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+        </div>
+        <div id="contenedor-flexible2">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+        </div>
+        <div id="contenedor-flexible3">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+        </div>
+        <div id="contenedor-flexible4">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+        </div>
+        <div id="contenedor-flexible5">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+        </div>
+        <div id="contenedor-flexible6">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+        </div>
+        <div id="contenedor-flexible7">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+            <div class="item-flexible">6</div>
+            <div class="item-flexible">7</div>
+            <div class="item-flexible">8</div>
+            <div class="item-flexible">9</div>
+            <div class="item-flexible">10</div>
+        </div>
+        <div id="contenedor-flexible8">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+            <div class="item-flexible">6</div>
+            <div class="item-flexible">7</div>
+            <div class="item-flexible">8</div>
+            <div class="item-flexible">9</div>
+            <div class="item-flexible">10</div>
+        </div>
+        <div id="contenedor-flexible9">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+        </div>
+        <div id="contenedor-flexible10">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+        </div>
+        <div id="contenedor-flexible11">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+        </div>
+        <div id="contenedor-flexible12">
+            <div class="item-flexible">1</div>
+            <div class="item-flexible">2</div>
+            <div class="item-flexible">3</div>
+            <div class="item-flexible">4</div>
+            <div class="item-flexible">5</div>
+            <div class="item-flexible">6</div>
+            <div class="item-flexible">7</div>
+            <div class="item-flexible">8</div>
+            <div class="item-flexible">9</div>
+            <div class="item-flexible">10</div>
+            <div class="item-flexible">11</div>
+            <div class="item-flexible">12</div>
+            <div class="item-flexible">13</div>
+            <div class="item-flexible">14</div>
+            <div class="item-flexible">15</div>
+            <div class="item-flexible">16</div>
+            <div class="item-flexible">17</div>
+            <div class="item-flexible">18</div>
+            <div class="item-flexible">19</div>
+            <div class="item-flexible">20</div>
+        </div>
+    </body>
+</html>

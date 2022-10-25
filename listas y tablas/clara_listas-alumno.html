@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Diseño de listas</title>
+        <link
+            rel="stylesheet"
+            href="2.5.1_listas_estilos-alumno.css"
+            title="Color"
+        />
+        <style>
+            html {
+                font-family: sans-serif;
+                background-color: #d3d3d3;
+            }
+
+            h1 {
+                font-weight: bold;
+            }
+
+            .lista1 li {
+                list-style-type: none;
+                float: left;
+                font-weight: bold;
+                font-size: 10px;
+                text-align: center;
+                padding: 3px;
+                margin: 4px;
+				border: 2px #954a95 dashed;
+                background-color: #5ace77;
+                width: 100px;
+                color: #5c2c72;
+                padding-top: 6px;
+                padding-bottom: 6px;
+            }
+
+            h2 {
+                clear: both;
+                font-weight: bold;
+            }
+
+			.lista2 {
+				margin-left: 60%;
+			}
+
+            .lista2 li {
+                list-style-type: none;
+				float: left;
+				margin: 10px;
+				font-size: 10px;
+                text-align: center;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                background-color: #ffffff;
+                padding: 3px;
+			}
+
+            .lista3 {
+                clear: both;
+                list-style-type: none;
+                width: 100px;
+                border: 1px solid black;
+                padding: 9px;
+                padding-bottom: calc(9px - 2px);
+            }
+
+            .lista3 li {
+                font-size: 10px;
+                text-align: center;
+                border: 1px solid black;
+                background-color: #ffffff;
+                padding: 5px;
+                margin-bottom: 3px;
+            }
+
+            .lista4 {
+                margin-left: 50%;
+            }
+
+            .lista4 li {
+                list-style-type: none;
+                float: left;
+                font-weight: bold;
+                font-size: 10px;
+                text-align: center;
+                padding: 3px;
+                margin: 4px;
+                background-color: #ffffff;
+                width: 100px;
+                color: #3366cc;
+                padding-top: 6px;
+                padding-bottom: 6px;
+            }
+
+            li.par {
+                background-color: #3366cc;
+                color: #ffffff;
+            }
+
+            .lista5 li {
+                float: left;
+                list-style-type: none;
+                margin: 20px;
+            }
+
+			.lista6 {
+				margin-left: 50%;
+			}
+
+            .lista6 li {
+                list-style-type: none;
+                float: left;
+                margin: 20px;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: white;
+                padding: 10px;
+            }
+
+            .lista li i {
+                justify-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Diseño de listas</h1>
+
+        <h2>Lista 1</h2>
+        <ul class="lista1">
+            <li>Punto 1</li>
+            <li>Punto 2</li>
+            <li>Punto 3, más largo</li>
+            <li>Punto 4</li>
+            <li>Punto 5</li>
+        </ul>
+
+        <h2>Lista 2</h2>
+        <ul class="lista2">
+            <li>Punto 1</li>
+            <li>Punto 2</li>
+            <li>Punto 3, más largo</li>
+            <li>Punto 4</li>
+            <li>Punto 5</li>
+        </ul>
+
+        <h2>Lista 3</h2>
+        <ul class="lista3">
+            <li>Punto 1</li>
+            <li>Punto 2</li>
+            <li>Punto 3, más largo</li>
+            <li>Punto 4</li>
+            <li>Punto 5</li>
+        </ul>
+
+        <h2>Lista 4</h2>
+        <ul class="lista4">
+            <li>Punto 1</li>
+            <li class="par">Punto 2</li>
+            <li>Punto 3, más largo</li>
+            <li class="par">Punto 4</li>
+            <li>Punto 5</li>
+        </ul>
+
+        <h2>Lista 5</h2>
+        <ul class="lista5">
+            <li><i class="icon-inicio"></i>Inicio</li>
+            <li><i class="icon-anadir"></i>Añadir</li>
+            <li><i class="icon-listar"></i>Listar</li>
+            <li><i clas="icon-borrar"></i>Borrar</li>
+            <li><i class="icon-buscar"></i>Buscar</li>
+            <li><i clas="icon-modificar"></i>Modificar</li>
+            <li><i class="icon-salir"></i>Salir</li>
+        </ul>
+
+        <h2>Lista 6</h2>
+        <ul class="lista6">
+            <li title="Inicio"><i class="icon-inicio"></i></li>
+            <li title="Añadir"><i class="icon-añadir"></i></li>
+            <li title="Listar"><i class="icon-listar"></i></li>
+            <li title="Borrar"><i class="icon-borrar"></i></li>
+            <li title="Buscar"><i class="icon-buscar"></i></li>
+            <li title="Modificar"><i class="icon-modificar"></i></li>
+            <li title="Salir"><i class="icon-salir"></i></li>
+        </ul>
+    </body>
+</html>
