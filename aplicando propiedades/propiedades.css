@@ -1,0 +1,47 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 500px;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #3f4c52;
+}
+
+header {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+nav {
+    font-size: 30px;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#imagen-globo {
+    width: 20px;
+    height: 20px;
+}
+
+#imagen-puerto {
+    width: 500px;
+}
