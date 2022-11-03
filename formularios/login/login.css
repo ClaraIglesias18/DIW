@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background-color: #294072;
+}
+
+.login {
+    width: 500px;
+    background-color: #1c2b4a;
+}
+
+header {
+    background-color: #17233b;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.usuario, .contraseña {
+    background-color: #12192c;
+    color: #5e6470;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 15px 10px 15px;
+}
+
+.iniciar {
+    background-color: #00cc66;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+
