@@ -1,0 +1,47 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #4c4c4c;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contenedor-input {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 15px 15px 0px 15px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px #a0aa69;
+}
+
+img {
+    flex: 1;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+input {
+    color: #bac5c7;
+    width: 500px;
+    border: #ffffff;
+}
+
+label {
+    font-size: 3px;
+}

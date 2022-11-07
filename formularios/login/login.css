@@ -1,6 +1,13 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     font-family: sans-serif;
     background-color: #294072;
+
 }
 
 .login {
@@ -14,25 +21,113 @@ header {
     font-size: 30px;
     text-align: center;
     padding: 10px;
+    font-weight: bold;
 }
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
+}
+
+.contenedor-input {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 15px 15px 0px 15px;
+}
+
+img {
+    flex: 1;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
 }
 
 .usuario, .contraseña {
     background-color: #12192c;
     color: #5e6470;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 15px 10px 15px;
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    width: 500px;
+}
+
+label {
+    color: #ffffff;
 }
 
 .iniciar {
     background-color: #00cc66;
     color: #ffffff;
+    box-shadow: 0px 3px 1px #026134;
     border-radius: 5px;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px 15px 10px 15px;
+    border: 0;
 
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #17233b;
+    justify-content: space-between;
+}
+
+a {
+    padding: 10px;
+    color: #9cacb6;
+}
+
+.registro {
+    background-color: #009966;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px #026134;
+}
+
+.redes {
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px 15px 10px ;
+}
+
+.contenedor-input-redes {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding: 5px;
+    margin: 15px 15px 0px 15px;
+}
+.twitter {
+    background-color: #2ca8d2;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.facebook {
+    background-color: #3b5a9a;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.olvidar {
+    position: absolute;
+}
+
+label {
+    margin-left: 15px;
+}
