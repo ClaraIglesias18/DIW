@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    font-family: sans-serif;
     background-color: #4c4c4c;
     color: grey;
     display: flex;
@@ -40,8 +41,27 @@ input {
     color: #bac5c7;
     width: 500px;
     border: #ffffff;
+    outline: none;
 }
 
 label {
-    font-size: 3px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.aceptar {
+    margin: 15px;
+    width: 60px;
+    height: 20px;
+}
+
+.crear {
+    width: 110px;
+    margin-left: 250px;
+    background-color: #a0aa69;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #a0aa69;
+    font-size: 13px;
 }

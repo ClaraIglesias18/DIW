@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <header>
+        <h1><img src="perfil.png">Perfil</h1>
+    </header>
+    <form>
+        <div class="formulario">
+            <fieldset class="datos">
+                <legend>Datos</legend>
+                <div class="contenedor2">
+                    <div class="etiquetas">
+                        <label for="fecha">Fecha de nacimiento:</label>
+                        <label for="foto">Ingrese su foto:</label>
+                        <label for="nacionalidad">Nacionalidad: </label>
+                        <label for="color">Color favorito: </label>
+                        <label for="sexo">Sexo: </label>
+                        <label for="edad">Edad: </label>
+                        <label for="direccion">Direccion: </label>
+                    </div>
+                    <div class="introducir">
+                        <input type="date" id="fecha" placeholder="dd/mm/aaaa">
+                        <input type="file" id="foto" placeholder=""></input>
+                        <input type="text" id="nacionalidad"></input>
+                        <input type="color" id="color"></input>
+                        <input type="radio" id="sexo" value="Femenino">
+                        <input type="radio" id="sexo" value="Masculino">
+                        <input type="number" id="edad"></input>
+                        <input type="text" id="direccion">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="temas">
+                <legend>Temas</legend>
+                <p>Elija temas de interes</p>
+                <div class="contenedor2">
+                    <div class="introducir1">
+                        <input type="checkbox" id="ciencia">
+                        <input type="checkbox" id="arte">
+                        <input type="checkbox" id="literatura">
+                        <input type="checkbox" id="tecnologia">
+                        <input type="checkbox" id="musica">
+                        <input type="checkbox" id="informatica">
+                    </div>
+                    <div class="etiquetas1">
+                        <label for="ciencia">Ciencia</label>
+                        <label for="arte">Arte</label>
+                        <label for="literatura">Literatura</label>
+                        <label for="tecnologia">Tecnologia</label>
+                        <label for="musica">Musica</label>
+                        <label for="informatica">Informatica</label>
+                    </div>
+                </div>
+                <p>Libros y articulos de su interes</p>
+                <!-- cambiar por etiqueta <textarea>-->
+                <input type="text" id="interes">
+            </fieldset>
+            <fieldset class="aficiones">
+                <legend>Aficiones</legend>
+                <p>Elija su pasatiempo</p>
+                <div class="contenedor2">
+                    <div class="introducir2">
+                        <input type="checkbox" id="deporte">
+                        <input type="checkbox" id="musica">
+                        <input type="checkbox" id="lectura">
+                        <input type="checkbox" id="pesca">
+                        <input type="checkbox" id="pasea">
+                        <input type="checkbox" id="cine">
+                    </div>
+                    <div class="etiquetas2">
+                        <label for="deporte">Deporte</label>
+                        <label for="musica">Musica</label>
+                        <label for="lectura">Lectura</label>
+                        <label for="pesca">Pesca</label>
+                        <label for="pasear">Pasear</label>
+                        <label for="cine">Cine</label>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <input type="submit" class="enviar" value="Enviar informacion">
+    </form>
+</body>
+
+</html>
