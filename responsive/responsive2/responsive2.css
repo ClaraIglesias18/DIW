@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #fa7d09;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #fa7d09;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+footer {
+    background-color: #fa7d09;
+}
+
+
+.sideArticle {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.sideArticle div{
+    background-color: #fa7d09;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+.mainArticle {
+    background-image: url("resposive.jpg");
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.mainArticle p {
+    padding: 10px;
+}

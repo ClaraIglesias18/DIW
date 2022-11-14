@@ -32,6 +32,7 @@ img {
 .contenedor2 {
     display: flex;
     flex-direction: row;
+    gap: 5px;
 }
 
 .etiquetas {
@@ -69,21 +70,25 @@ img {
 .etiquetas1 {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .introducir1{
     display: flex;
     flex-direction: column;
+    gap: 7px;
 }
 
 .etiquetas2 {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .introducir2 {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
 .enviar {

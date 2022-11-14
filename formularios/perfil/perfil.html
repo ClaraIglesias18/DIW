@@ -32,10 +32,10 @@
                         <input type="file" id="foto" placeholder=""></input>
                         <input type="text" id="nacionalidad"></input>
                         <input type="color" id="color"></input>
-                        <input type="radio" id="sexo" value="Femenino">
-                        <input type="radio" id="sexo" value="Masculino">
+                        <label><input type="radio" id="sexo" value="Masculino">Masculino</label>
+                        <label><input type="radio" id="sexo" value="Femenino">Femenino</label>
                         <input type="number" id="edad"></input>
-                        <input type="text" id="direccion">
+                        <textarea id="direccion"></textarea>
                     </div>
                 </div>
             </fieldset>
@@ -44,12 +44,12 @@
                 <p>Elija temas de interes</p>
                 <div class="contenedor2">
                     <div class="introducir1">
-                        <input type="checkbox" id="ciencia">
-                        <input type="checkbox" id="arte">
-                        <input type="checkbox" id="literatura">
-                        <input type="checkbox" id="tecnologia">
-                        <input type="checkbox" id="musica">
-                        <input type="checkbox" id="informatica">
+                        <input type="radio" id="ciencia">
+                        <input type="radio" id="arte">
+                        <input type="radio" id="literatura">
+                        <input type="radio" id="tecnologia">
+                        <input type="radio" id="musica">
+                        <input type="radio" id="informatica">
                     </div>
                     <div class="etiquetas1">
                         <label for="ciencia">Ciencia</label>
@@ -61,8 +61,8 @@
                     </div>
                 </div>
                 <p>Libros y articulos de su interes</p>
-                <!-- cambiar por etiqueta <textarea>-->
-                <input type="text" id="interes">
+                <textarea id="interes">
+                </textarea>
             </fieldset>
             <fieldset class="aficiones">
                 <legend>Aficiones</legend>
