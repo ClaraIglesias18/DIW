@@ -1,52 +1,41 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-    "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="es">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Ejercicio 7 - Fondos CSS</title>
-        <style type="text/css" media="screen">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondos</title>
+    <style>
+        html {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         
         body {
             width: 1000px;
         }
-        
-        .old_paper {
-          background-repeat: no-repeat;
-          width: auto;
-        }
-        
-        /*.examplemultiplebackgroundsa {
-            width: auto;
-            height: auto;
-            right: 0px;
-        }*/
 
-        .decoration {
-            background-repeat: no-repeat;
-            background-position: top left;
-            position: absolute;
+        #fondos {
+            background: url("ribbon.png") bottom right no-repeat,
+                        url("decoration.png") top left no-repeat,
+                        url("old_paper.jpg") center no-repeat;
+            width: 1000px;
+            height: 600px;
+        }
 
-        }
-        .ribbon {
-            background-repeat: no-repeat;
-            background-position: bottom right;
+        p {
             position: absolute;
+            right: 500px;
+            font-size: 20px;
+            font-weight: bold;
         }
-        </style>
-    </head>
-    <body>
-        <div class="examplemultiplebackgroundsa">
-            <p>Ejercicio de fondos múltiples</p>
-        </div>
-        <div>
-            <img src="decoration.png" class="decoration">
-        </div>
-        <div>
-            <img src="old_paper.jpg" class="old_paper">
-        </div>
-        <div>
-            <img src="ribbon.png" class="ribbon">
-        </div>
-    </body>
+        
+    </style>
+</head>
+<body>
+    <div id="fondos">
+        <p>Ejercicio de fondos multiples</p>
+    </div>
+</body>
 </html>
