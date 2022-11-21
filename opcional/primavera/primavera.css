@@ -37,5 +37,9 @@ li {
     background-color: #9fc131;
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
+}
 
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
