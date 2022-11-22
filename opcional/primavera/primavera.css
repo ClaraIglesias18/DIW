@@ -1,11 +1,12 @@
 body {
-    width: 90%;
-    margin: 0px auto;
-    height: 1000px;
     background-color: #d6d58e;
+    margin: 0px auto;
+    width: 90%;
 }
 
 header {
+    height: 150px;
+    margin: 0px auto;
     background-color: #005c53;
     position: relative;
     top: 10px;
@@ -17,14 +18,18 @@ header {
 }
 
 nav {
+    margin: 0px auto;
     top: 0px;
     position: sticky;
+    width: 90%;
+    background-color: #031a29;
+    border-radius: 10px;
 }
 
 nav ul{
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
-    width: 90%;
     justify-content: center;
     justify-items: center;
     list-style-type: none;
@@ -42,4 +47,41 @@ li {
 a {
     text-decoration: none;
     color: aliceblue;
+}
+
+aside {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+aside div {
+    width: inherit;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+    height: 750px;
+}
+
+.izquierda {
+    font-weight: bold;
+    width: 25%;
+}
+
+.derecha {
+    width: 25%;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 35px;
+    font-size: small;
+    height: 125px;
+    background-color: #005c53;
+    border-radius: 10px;
 }
