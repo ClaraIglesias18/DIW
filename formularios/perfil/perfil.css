@@ -1,0 +1,102 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 30px;
+    color: #ffffff;
+    background-color: #4c4c4c;
+    border-radius: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+img {
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.etiquetas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.introducir{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#direccion {
+    height: 80px;
+}
+
+#edad {
+    width: 30px;
+}
+
+#nacionalidad {
+    width: 100px;
+}
+
+#fecha {
+    width: 90px;
+}
+
+#interes {
+    height: 90px;
+}
+
+.etiquetas1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.introducir1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.etiquetas2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.introducir2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.enviar {
+    margin-left: 700px;
+    padding: 15px;
+    background-color: #a5b456;
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #ffffff;
+    margin-top: 4px;
+}
