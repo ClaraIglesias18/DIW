@@ -1,0 +1,4 @@
+Partindo do seguinte manual:
+    https://www.cablenaranja.com/como-crear-un-menu-dropdown-con-puro-css/#%C2%A1Pon_a_prueba_el_codigo
+
+Crea o seguinte menú (ver vídeo) aplicando os cambios que sexan necesarios no css.

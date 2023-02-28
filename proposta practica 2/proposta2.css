@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.container div {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.scale {
+    background-color: #b1322d;
+}
+
+.scale:hover {
+    background-color: #b1322d;
+    transform: scale(0.5, 0.5);
+}
+
+.rotate {
+    background-color: #9450b3;
+}
+
+.rotate:hover {
+    background-color: #9450b3;
+    transform: rotate(20deg);
+}
+
+.translate {
+    background-color: #3d86b8;
+}
+
+.translate:hover {
+    background-color: #3d86b8;
+    transform: translate(50px, 100px);
+}
+
+.skew {
+    background-color: #4a9dd7;
+}
+
+.skew:hover {
+    background-color: #4a9dd7;
+    transform: skew(20deg, 10deg);
+}
+
+.skewy {
+    background-color: #3ab38a;
+}
+
+.skewy:hover {
+    background-color: #3ab38a;
+    transform: skewY(20deg);
+}
+
+.skewx {
+    background-color: #e9ca10;
+}
+
+.skewx:hover {
+    background-color: #e9ca10;
+    transform: skewX(20deg);
+}
+
+.translatex {
+    background-color: #d77a25;
+}
+
+.translatex:hover {
+    background-color: #d77a25;
+    transform: translateX(50px);
+}
+
+.translatey {
+    background-color: #98a6a7;
+}
+
+.translatey:hover {
+    background-color: #98a6a7;
+    transform: translateY(50px);
+}
+
+.perspective1 {
+    background-color: #2f3e51;
+}
+
+.perspective1:hover {
+    background-color: #2f3e51;
+    transform: perspective(400px) rotateY(45deg);
+}
+
+.perspective2 {
+    background-color: #818081;
+}
+
+.perspective2:hover {
+    background-color: #818081;
+    transform: perspective(400px) rotateX(45deg);
+}
+
+.matrix {
+    background-color: #010001;
+}
+
+.matrix:hover {
+    background-color: #010001;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

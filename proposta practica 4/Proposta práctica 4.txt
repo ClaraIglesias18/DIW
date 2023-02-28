@@ -1,0 +1,2 @@
+Partindo do ficheiro menu-transiciones.html facer as modificacións necesarias para que o resultado
+sexa o que se amosa no seguinte vídeo.
